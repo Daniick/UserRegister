@@ -1,0 +1,105 @@
+/* Estilos CSS para el formulario de inicio de sesión */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-box {
+  background-color: #fff;
+  border-radius: 24px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  width: 473.83px;
+  height: 634.3px;
+  border: 1px;
+}
+
+.logo {
+  width: 130.17px;
+  height: 18px;
+  margin-left: 45px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.logo_uno {
+  width: 320px;
+  height: 50px;
+  margin-left: 45px;
+  font-size: 19px;
+  font-weight: 550;
+  text-align: left;
+}
+.logo_dos {
+  margin-left: 45px;
+  width: 318.88px;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: -0.035em;
+  text-align: left;
+  margin-bottom: 50px;
+}
+
+input[type="email"],
+input[type="password"],
+button {
+  width: 356.48px;
+  padding: 18px;
+
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  margin-top: 20px;
+  width: 395px;
+  background-color: #4285f4;
+  color: white;
+  padding: 0px;
+  cursor: pointer;
+  font-size: 16px;
+  height: 40px;
+}
+
+button {
+  font-family: Noto Sans;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: -0.035em;
+  text-align: center;
+}
+
+button:hover {
+  background-color: #357ae8;
+}
+
+.pl {
+  color: gray;
+  font-size: 14px;
+}
+
+a {
+  margin-top: 50px;
+  text-decoration: none;
+  color: #4285f4;
+}
+
+.as {
+  letter-spacing: 10px;
+}
+
+.out_main {
+  display: flex;
+  justify-content: space-between;
+}

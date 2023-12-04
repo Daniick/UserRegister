@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  padding: 0;
+}
+body {
+}
+
+header {
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.navbar-logo img {
+  margin: 1rem;
+  width: 200px;
+}
+
+.navbar-icons {
+  display: flex;
+  align-items: center;
+}
+
+.logout-icon img {
+  width: 30px;
+  margin: 20px;
+}
+.back {
+  margin-left: 490px;
+  margin-bottom: 40px;
+}
+section {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.personal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.login-box {
+  background-color: #fff;
+  border-radius: 12px;
+  border: #d3d3d3 1px solid;
+  padding: 30px;
+  text-align: center;
+  width: 845.91px;
+  height: 827.56px;
+  /* border: 1px solid #e0e0e0; */
+}
+
+.inputs {
+  text-align: left;
+  margin-left: 20px;
+}
+
+.inputs > div > input {
+  border: 1px solid #828282;
+  border-radius: 10px;
+  padding: 10px;
+  width: 416.93px;
+  height: 30px;
+}
+
+input > ::placeholder {
+  line-height: 17.71px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  margin-top: 40px;
+}
+
+.pl {
+  color: gray;
+  font-size: 14px;
+}
+
+.out_main {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.last {
+  color: #e0e0e0;
+  display: flex;
+  padding: 7px;
+}
+
+a > button {
+  margin-top: 40px;
+  background: #2f80ed;
+  width: 82px;
+  height: 38px;
+  border-radius: 8px;
+  color: white;
+  border: 1px transparent;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.back {
+  text-decoration: none;
+  font-size: 20px;
+  color: #2d9cdb;
+}
+
+.image-upload > input {
+  display: none;
+}
+
+.image-upload img {
+  width: 40px;
+  cursor: pointer;
+}
