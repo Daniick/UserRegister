@@ -52,9 +52,9 @@ if (isset($_SESSION['datoUsuario'])) {
                                         <?php if ($datoUsuario['photo'] != '') : ?>
                                             <img src="<?= $datoUsuario['photo'] ?>" alt="profile" width="40px" height="40px">
                                         <?php endif; ?>
-
+                                        <input id="file-input" type="file" name="photo">
                                     </label>
-                                    <input id="file-input" type="file" name="photo">
+
 
 
                                 </div>
